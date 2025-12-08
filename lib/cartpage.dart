@@ -25,7 +25,7 @@ class _CartpageState extends State<Cartpage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Cartpage",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white),),
+        title: Text("السلة ",style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white),),
 
 
         centerTitle: true,
