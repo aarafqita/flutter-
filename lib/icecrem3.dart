@@ -47,7 +47,7 @@ class _Icecrem3State extends State<Icecrem3> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title:Text('Squim Ice Cream', style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white),
+        title:Text(' Ice Cream', style: TextStyle(fontWeight: FontWeight.bold,color: Colors.white),
         ) ,
         backgroundColor: Color(0xFFE91E63),
         iconTheme:IconThemeData(color: Colors.white),
