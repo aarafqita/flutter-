@@ -170,7 +170,7 @@ class _CartpageState extends State<Cartpage> {
             style: ElevatedButton.styleFrom(
               backgroundColor: Colors.deepOrange,
               foregroundColor: Colors.white,
-              minimumSize: Size(200, 45),
+
             ),
             child: Text("تأكيد الطلب"),
           ),
