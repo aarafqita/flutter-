@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:listing/secand.dart';
 
 void main() {
   runApp(ProfileApp());
@@ -20,6 +21,12 @@ class _ProfileAppState extends State<ProfileApp> {
     if (_formKey.currentState!.validate()) {
       _formKey.currentState!.save();
       print('Name: $_name, Email: $_email, Password : ${_passwordController.text}');
+      Navigator.push(context,
+      MaterialPageRoute(builder: (context)=>Row(
+        children: [
+          Secand(),
+        ],
+      )));
     }
   }
 
