@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
                child: Column(
                 children: [
 
-                  Text('iPhone',style: TextStyle(fontWeight: FontWeight.bold),),
+                  Text('iPhone',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30),),
                   SizedBox(height: 10,),
                   Text('iPhone is the slylist phone ever'),
                   SizedBox(height: 10,),
