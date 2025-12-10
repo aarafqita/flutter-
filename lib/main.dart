@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
           children: [
            Row(
              children: [
-            Image.asset('assest/1.jpg',width:100,height: 100,),
+            Image.asset('assets/1.jpg',width:100,height: 100,),
 
              Expanded(
                child: Column(
@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
         ),
             Row(
               children: [
-                Image.asset('assest/1.jpg',width:100,height: 100,),
+                Image.asset('assets/1.jpg',width:100,height: 100,),
 
                 Expanded(
                   child: Column(
@@ -53,7 +53,7 @@ class MyApp extends StatelessWidget {
             ),
             Row(
               children: [
-                Image.asset('assest/1.jpg',width:100,height: 100,),
+                Image.asset('assets/1.jpg',width:100,height: 100,),
 
                 Expanded(
                   child: Column(
@@ -71,7 +71,7 @@ class MyApp extends StatelessWidget {
             ),
             Row(
               children: [
-                Image.asset('assest/1.jpg',width:100,height: 100,),
+                Image.asset('assets/1.jpg',width:100,height: 100,),
 
                 Expanded(
                   child: Column(
@@ -89,7 +89,7 @@ class MyApp extends StatelessWidget {
             ),
             Row(
               children: [
-                Image.asset('assest/1.jpg',width:100,height: 100,),
+                Image.asset('assets/1.jpg',width:100,height: 100,),
 
                 Expanded(
                   child: Column(
