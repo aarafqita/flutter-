@@ -22,11 +22,9 @@ class _ProfileAppState extends State<ProfileApp> {
       _formKey.currentState!.save();
       print('Name: $_name, Email: $_email, Password : ${_passwordController.text}');
       Navigator.push(context,
-      MaterialPageRoute(builder: (context)=>Row(
-        children: [
-          Secand(),
-        ],
-      )));
+      MaterialPageRoute(builder: (context)=> Secand(name:_name),
+
+      ));
     }
   }
 
