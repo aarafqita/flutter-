@@ -99,7 +99,7 @@ class MyApp extends StatelessWidget {
                       SizedBox(height: 10,),
                       Text('iPhone is the slylist phone ever'),
                       SizedBox(height: 10,),
-                      Text('price: 1000'),
+                      Text('price: 6000'),
 
 
                     ],
