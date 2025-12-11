@@ -35,7 +35,7 @@ class UserInfoCard extends StatelessWidget {
                 Text(email),
                 Text(
                   role,
-                  style: TextStyle(color: Colors.grey),
+                  style: TextStyle(color: Colors.black45),
                 ),
               ],
 

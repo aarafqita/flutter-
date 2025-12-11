@@ -21,7 +21,7 @@ class _LikeButtonState extends State<LikeButton> {
     _isLiked = widget.initialIsLiked;
   }
 
-  void _toggleLike() {
+  void _toggleLikes() {
     setState(() {
       _isLiked = !_isLiked;
     });
@@ -34,7 +34,7 @@ class _LikeButtonState extends State<LikeButton> {
         _isLiked ? Icons.favorite : Icons.favorite_border,
         color: _isLiked ? Colors.red : Colors.grey,
       ),
-      onPressed: _toggleLike,
+      onPressed: _toggleLikes,
     );
   }
 }

@@ -22,12 +22,12 @@ class Homepage extends StatelessWidget {
           UserInfoCard(
             name: 'Saleh Ali',
             email: 'SAlieh@example.com',
-            role: 'Teacher',
+            role: 'Student',
           ),
           UserInfoCard(
             name: 'Saleh Ali',
             email: 'SAlieh@example.com',
-            role: 'Teacher',
+            role: 'Student',
           ),
         ],
       ),
